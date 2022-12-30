@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "pe.sistemasuni"
+    versionCode = "1"
+    version     = "0.0.1" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Super Tienda</name>
+
+  <description>
+      Tienda al alcance de su mano para Android
+  </description>
+
+  <author href="http://www.davidchura.com" email="davidchura@gmail.com">
+      David Chura
+  </author>
+
+
+
+
+  <plugin name="cordova-plugin-whitelist"/> 
+
+  <plugin name="cordova-plugin-screen-orientation"/> 
+  
+  
+  <access origin="*"/>  
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-navigation href="*"/>
+
+
+  <preference name="orientation" value="portrait" />
+</widget>
